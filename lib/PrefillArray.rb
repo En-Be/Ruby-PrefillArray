@@ -1,5 +1,5 @@
 
-def PrefillArray(n,v)
+def PrefillArray(n,v = nil)
     result = []
 
     if n.to_i.to_s != n.to_s

@@ -25,6 +25,6 @@ describe 'PrefillArray' do
     end
 
     it 'outputs undefined values if v is not provided' do
-        expect(PrefillArray(2)).to eq [undefined, undefined]
+        expect(PrefillArray(2)).to eq [nil, nil]
     end
 end
