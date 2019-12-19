@@ -27,4 +27,8 @@ describe 'PrefillArray' do
     it 'outputs undefined values if v is not provided' do
         expect(PrefillArray(2)).to eq [nil, nil]
     end
+
+    it 'outputs an empty array when n is 0' do
+        expect(PrefillArray(0, 1)).to eq []
+    end
 end
