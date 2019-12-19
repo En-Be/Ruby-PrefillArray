@@ -23,4 +23,8 @@ describe 'PrefillArray' do
     it 'outputs and error if a non-integer is passed as n' do
         expect {PrefillArray("x", "y")}.to raise_error(TypeError, "x is invalid")
     end
+
+    it 'outputs undefined values if v is not provided' do
+        expect(PrefillArray(2)).to eq [undefined, undefined]
+    end
 end

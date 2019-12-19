@@ -2,8 +2,6 @@
 def PrefillArray(n,v)
     result = []
 
-    # print("n = #{n} = #{n.to_i}")
-
     if n.to_i.to_s != n.to_s
         raise TypeError.new("#{n} is invalid")  
     end
