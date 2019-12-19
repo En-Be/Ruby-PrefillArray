@@ -15,7 +15,7 @@ When throwing a TypeError, the message should be n is invalid, where you replace
 ## Acceptance Criteria
 
 Input | Output
-- | -
+--- | ---
 3,1 | [1,1,1]
 2, "abc" | ["abc", "abc"]
 "1", 1 | [1]
