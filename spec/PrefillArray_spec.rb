@@ -19,4 +19,8 @@ describe 'PrefillArray' do
     it 'outputs a 2d array when used as a parameter in itself' do
         expect(PrefillArray(2,PrefillArray(2,1))).to eq [[1,1], [1,1]]
     end
+
+    it 'outputs and error if a non-integer is passed as n' do
+        expect {PrefillArray("x", "y")}.to raise_error(TypeError, "x is invalid")
+    end
 end
