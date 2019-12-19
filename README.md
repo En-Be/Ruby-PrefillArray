@@ -21,7 +21,7 @@ Input | Output
 "1", 1 | [1]
 3, prefill(2, "2d") | [["2d", "2d"],["2d", "2d"], ["2d", "2d"]]
 "xyz", 1 | Typeerror with message "xyz is invalid"
-3 | [undefined, undefined, undefined]
+3 | [nil, nil, nil]
 ---
 
 ## How to run
