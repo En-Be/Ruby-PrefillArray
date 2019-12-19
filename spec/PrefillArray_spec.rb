@@ -29,6 +29,6 @@ describe 'PrefillArray' do
     end
 
     it 'outputs an empty array when n is 0' do
-        expect(PrefillArray(0, 1)).to eq []
+        expect(PrefillArray(0, 10)).to eq []
     end
 end
