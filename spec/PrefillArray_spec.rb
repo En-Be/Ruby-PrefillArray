@@ -4,5 +4,7 @@ describe 'PrefillArray' do
         expect(PrefillArray(3,1)).to eq [1,1,1]
     end
 
-    
+    it 'outputs and array with 5 elements of value 10' do
+        expect(PrefillArray(5,10)).to eq [10,10,10,10,10]
+    end
 end
