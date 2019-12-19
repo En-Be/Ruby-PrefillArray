@@ -25,3 +25,24 @@ Input | Output
 ---
 
 ## How to run
+
+- Clone the repo
+- Inside the root directory of the project, require the method file in a repl:
+
+    ```
+    irb -r './lib/PrefillArray.rb'
+    ```
+- Call the method with a string:
+    ```
+    PrefillArray(2, "Lalala")
+    ```
+    Which outputs:
+    ```
+    => ["Lalala", "Lalala"]
+    ```
+
+- To see the test coverage, run:
+
+    ```
+    rspec
+    ```
