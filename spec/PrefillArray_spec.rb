@@ -11,4 +11,8 @@ describe 'PrefillArray' do
     it 'outputs and array with 2 elements of value abc' do
         expect(PrefillArray(2,"abc")).to eq ["abc", "abc"]
     end
+
+    it 'accepts a string of integers as the number of elements' do
+        expect(PrefillArray("3",2)).to eq [2,2,2]
+    end
 end
